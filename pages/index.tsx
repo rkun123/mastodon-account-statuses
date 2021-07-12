@@ -25,12 +25,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
 export default function Home({ accounts }: { accounts: AccountInfo[] }) {
 
-  function Accounts() {
-    return accounts.map(account => (
-      <Account account={account} />
-    ))
-  }
-
   return (
     <div className={styles.container}>
       <Head>
