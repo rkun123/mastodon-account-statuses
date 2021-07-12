@@ -7,7 +7,7 @@ export default function AccountList({ accounts }: { accounts: AccountInfo[]}) {
 		<div className={styles.container}>
 			{
 				accounts.map(a => (
-					<Account account={a} />
+					<Account account={a} key={a.id} />
 				))
 			}
 		</div>

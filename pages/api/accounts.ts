@@ -61,7 +61,7 @@ export type AccountInfo = {
 
 export async function fetchAllAccounts() {
 
-  let url = `${process.env.MASTODON_BASE_URL}/api/v1/admin/accounts?local=true`
+  let url = `https://${process.env.MASTODON_DOMAIN}/api/v1/admin/accounts?local=true`
   let accounts: AccountInfo[] = []
 
   for(;;) {
