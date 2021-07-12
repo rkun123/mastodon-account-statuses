@@ -1,0 +1,29 @@
+.container {
+	display: inline-flex;
+	flex-direction: column;
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: .3rem;
+	background-color: #c0c0c0;
+	overflow: hidden scroll;
+}
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.avatar {
+	height: 5rem;
+}
+.nameContainer {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
+}
+.title {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.username {
+
+}
